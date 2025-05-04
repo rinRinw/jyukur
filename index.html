@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭教師サイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>家庭教師サービス</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">ホーム</a></li>
+                    <li><a href="#about">紹介</a></li>
+                    <li><a href="#plan">料金</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>あなたの学びを、私たちが支えます</h2>
+            <p>家庭教師サービスで未来の可能性を広げよう。</p>
+            <a href="#contact" class="btn">無料相談はこちら</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>講師紹介</h2>
+        <div class="teacher-card">
+            <img src="hero-background.jpg" alt="講師写真">
+            <h3>山田 太郎</h3>
+            <p>東大卒、数学・英語が得意です。</p>
+        </div>
+    </section>
+
+    <section id="plan" class="container">
+        <h2>料金プラン</h2>
+        <ul>
+            <li>週1回コース：5,000円／月</li>
+            <li>週2回コース：9,000円／月</li>
+            <li>週3回コース：12,000円／月</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 家庭教師サービス</p>
+    </footer>
+</body>
+</html>
